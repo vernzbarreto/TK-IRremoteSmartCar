@@ -2,3 +2,45 @@
 basic.forever(function () {
     basic.showString("" + (IR.IR_read()))
 })
+makerbit.onIrButton(IrButton.Any, IrButtonAction.Released, function () {
+    basic.showIcon(IconNames.SmallHeart)
+})
+makerbit.onIrButton(IrButton.Left, IrButtonAction.Pressed, function () {
+    basic.showLeds(`
+        . . # . .
+        . # . . .
+        # # # # #
+        . # . . .
+        . . # . .
+        `)
+})
+makerbit.onIrButton(IrButton.Down, IrButtonAction.Pressed, function () {
+    basic.showLeds(`
+        . . # . .
+        . . # . .
+        # . # . #
+        . # # # .
+        . . # . .
+        `)
+})
+makerbit.onIrButton(IrButton.Up, IrButtonAction.Pressed, function () {
+    basic.showLeds(`
+        . . # . .
+        . # # # .
+        # . # . #
+        . . # . .
+        . . # . .
+        `)
+})
+makerbit.onIrButton(IrButton.Right, IrButtonAction.Pressed, function () {
+    basic.showLeds(`
+        . . # . .
+        . . . # .
+        # # # # #
+        . . . # .
+        . . # . .
+        `)
+})
+makerbit.connectIrReceiver(DigitalPin.P8)
+serial.redirectToUSB()
+serial.setBaudRate(BaudRate.BaudRate115200)
