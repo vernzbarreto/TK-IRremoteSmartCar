@@ -63,7 +63,7 @@ enum EM_RemoteButton {
     EM_NUM8 = 0x52,
     //% block=9
     EM_NUM9 = 0x4a
-}
+};
 
 //enum RemoteButton {
     //% block=*
@@ -100,7 +100,7 @@ enum EM_RemoteButton {
     NUM8 = 0x15,
     //% block=9
     NUM9 = 0x09
-}
+};
 
 
 /**
