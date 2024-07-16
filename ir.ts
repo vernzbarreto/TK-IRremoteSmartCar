@@ -63,7 +63,7 @@ enum  IrPins{
     EM_NUM8 = 0x52,
     //% block=9
     EM_NUM9 = 0x4a
-};
+}
 
 enum RemoteButton {
     //% block=*
