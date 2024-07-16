@@ -20,7 +20,7 @@ enum  IrPins{
     P20= 20
 };
 
-//**enum EM_RemoteButton {
+enum EM_RemoteButton {
     //% block=A
     EM_A = 0x45,
     //% block=B
