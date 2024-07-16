@@ -1,7 +1,7 @@
 // Auto-generated. Do not edit.
 
 
-    declare const enum RemoteButton {
+  //  declare const enum RemoteButton {
     Power = 0x0,
     Up = 0x1,
     Left = 0x4,
