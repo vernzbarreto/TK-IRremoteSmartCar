@@ -1,5 +1,16 @@
 #include "pxt.h"
+#include "ReceiverIR.h"
 
+#define LOCK()
+#define UNLOCK()
+
+#define InRange(x,y)   ((((y) * 0.7) < (x)) && ((x) < ((y) * 1.3)))
+
+/**
+ * Constructor.
+ *
+ * @param rxpin Pin for receive IR signal.
+ */
 namespace EMIR { 
 int ir_code = 0x00;
 int ir_addr = 0x00;
