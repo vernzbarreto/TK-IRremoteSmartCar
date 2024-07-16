@@ -22,8 +22,9 @@
         "microbit"
     ],
     "preferredEditor": "blocksprj"
+}
 
-
+{
     "name": "Mbit_IR",
     "version": "3.0.0",
     "description": "Extension for Technokids SmartCar2 IR",
