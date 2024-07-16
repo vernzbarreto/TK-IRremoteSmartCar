@@ -1,7 +1,7 @@
-Technokids SmartCar2_IR for micro-bit
-Extension for Technokids SmartCar2 IR
+Technokids SmartCar_IR for micro-bit
+Extension for Technokids SmartCar IR
 
-Note: IR receiver for Technokids SmartCar2 receiver
+Note: IR receiver for Technokids SmartCar receiver
 
 License
 MIT
