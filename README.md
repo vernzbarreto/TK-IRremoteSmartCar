@@ -1,5 +1,5 @@
 
-## Use as Extension
+## Use as Extension for TechnokidsPH
 
 This repository can be added as an **extension** in MakeCode.
 
