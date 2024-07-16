@@ -2,6 +2,9 @@
     "EM_IR.OnPressEvent|block": "当接收到红外值时运行",
     "EM_IR.EM_IR_read|block": "红外接收的值",
     "EM_IR.IrRemote_init": "遥控器初始化引脚|%pin"
+    "Mbit_IR.init|block": "连接红外接收器到引脚 %pin",
+    "Mbit_IR.onPressEvent|block": "当按钮 |%btn| 被按下时",
+    "makerbit.connectIrReceiver|block": "连接红外接收器到引脚 %pin",
     "makerbit.onIrButton|block": "当按钮 | %button | %action",
 	"IrButtonAction.Pressed|block": "按下",
 	"IrButtonAction.Released|block": "松开"
